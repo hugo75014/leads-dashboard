@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { supabaseAdmin } from '@/lib/supabase';
 
-const VALID_SOURCES = new Set(['instagram', 'tiktok', 'linkedin', 'manychat', 'zapier', 'direct']);
+const VALID_SOURCES = new Set(['instagram', 'facebook', 'tiktok', 'linkedin', 'manychat', 'zapier', 'direct']);
 
 export async function POST(req: NextRequest) {
   const body = await req.json().catch(() => ({}));

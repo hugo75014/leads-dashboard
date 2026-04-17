@@ -16,8 +16,9 @@ export interface Lead {
 
 const SOURCE_COLORS: Record<string, string> = {
   instagram: 'bg-pink-500/15 text-pink-400',
+  facebook:  'bg-blue-600/15 text-blue-500',
   tiktok:    'bg-gray-500/15 text-gray-300',
-  linkedin:  'bg-blue-500/15 text-blue-400',
+  linkedin:  'bg-sky-500/15 text-sky-400',
   manychat:  'bg-purple-500/15 text-purple-400',
   zapier:    'bg-orange-500/15 text-orange-400',
   direct:    'bg-gray-700/30 text-gray-400',

@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { verifyAdminToken } from '@/lib/auth';
 import { supabaseAdmin } from '@/lib/supabase';
 
-const VALID_SOURCES = new Set(['instagram', 'tiktok', 'linkedin', 'manychat', 'zapier', 'direct']);
+const VALID_SOURCES = new Set(['instagram', 'facebook', 'tiktok', 'linkedin', 'manychat', 'zapier', 'direct']);
 const VALID_STATUSES = new Set(['new', 'contacted', 'trial', 'converted', 'lost']);
 
 export async function GET(req: NextRequest) {

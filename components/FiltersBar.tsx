@@ -28,6 +28,7 @@ export function FiltersBar({ filters, onChange }: Props) {
       >
         <option value="">Toutes les sources</option>
         <option value="instagram">Instagram</option>
+        <option value="facebook">Facebook</option>
         <option value="tiktok">TikTok</option>
         <option value="linkedin">LinkedIn</option>
         <option value="manychat">ManyChat</option>
